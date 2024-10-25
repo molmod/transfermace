@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "transfermace"
+version = "1.0.0"
+description = "Extension for adding a delta energy readout"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "mace",
+    ]
+
+
+[tool.setuptools.packages.find]
+include = [
+    "transfermace",
+    "transfermace.modules",
+    "transfermace.tools",
+    ]
+
+
+[tool.pytest.ini_options]
+log_cli = 0
+addopts = [
+    "--import-mode=append",
+]
+testpaths = ["tests"]
