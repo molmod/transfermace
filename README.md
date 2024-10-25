@@ -1,4 +1,4 @@
-# Transfer learning using energy-only datasets using MACE (see [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/668d2d8e5101a2ffa8dd39ca))
+# Transfer learning using energy-only datasets with MACE (see [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/668d2d8e5101a2ffa8dd39ca))
 
 Legacy implementation of a simple transfer learning approach using MACE. An more extensive and up-to-date version will be released soon.
 
